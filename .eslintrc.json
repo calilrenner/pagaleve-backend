@@ -15,16 +15,16 @@
         "@typescript-eslint"
     ],
     "rules": {
-                "import/no-unresolved": 0,
-                "import/extensions": 0,
-                "no-console": "off",
-                "import/prefer-default-export": 0,
-                "no-unused-vars": "off",
-                "object-curly-newline": "off",
-                "indent": "off",
-                "newline-per-chained-call": "off",
-                "no-plusplus": "off",
-                "no-shadow": "off",
-                "func-names": "off"
+        "import/no-unresolved": 0,
+        "import/extensions": 0,
+        "no-console": "off",
+        "import/prefer-default-export": 0,
+        "no-unused-vars": "off",
+        "object-curly-newline": "off",
+        "indent": "off",
+        "newline-per-chained-call": "off",
+        "no-plusplus": "off",
+        "no-shadow": "off",
+        "func-names": "off"
     }
 }
