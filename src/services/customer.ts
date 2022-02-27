@@ -1,6 +1,5 @@
 import { getRepository } from 'typeorm';
-import Customer from '@/entities/customer';
 
 export async function findCustomers() {
-    return getRepository(Customer).find();
+    return getRepository('customers').find({ take: 10, skip: 10 });
 }
