@@ -1,0 +1,181 @@
+seeds:
+    - Customer:
+          id: 1
+          name: 'Magalu'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 2
+          name: 'Renner'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 3
+          name: 'Riachuelo'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 4
+          name: 'Reserva'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 5
+          name: 'Jhon&Jhon'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 6
+          name: 'C&A'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 7
+          name: 'Apple'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 8
+          name: 'Samsung'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 9
+          name: 'JBL'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 10
+          name: 'Motorola'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 11
+          name: 'Audi'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 12
+          name: 'Ford'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 13
+          name: 'BMW'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 14
+          name: 'Ferrari'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 15
+          name: 'Mercedes'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 16
+          name: 'Sony'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 17
+          name: 'Lacoste'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 18
+          name: 'Adidas'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 19
+          name: 'Nike'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 20
+          name: 'Hollister'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 21
+          name: 'Everlast'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 22
+          name: 'Fastshop'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 23
+          name: 'GAP'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 24
+          name: 'Calvin Klein'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 25
+          name: 'Polo'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 26
+          name: 'Louis Vuitton'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 27
+          name: 'Gucci'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 28
+          name: 'Zara'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 29
+          name: 'Chanel'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
+    - Customer:
+          id: 30
+          name: 'Diesel'
+          email: 'email@email.com'
+          contact: 'Fabio'
+          number: '(11) 11111-1111'
