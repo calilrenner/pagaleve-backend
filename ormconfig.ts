@@ -8,7 +8,7 @@ export default {
     migrationsTableName: 'migrations',
     entities: ['dist/entities/*.js'],
     migrations: ['dist/migrations/*.js'],
-    extra: {
+    extra: process.env.NODE_ENV === 'production' && {
         ssl: {
             rejectUnauthorized: false,
         },
