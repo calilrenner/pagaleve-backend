@@ -15,7 +15,7 @@ app.get('/health', (_, res: Response) => {
     res.send('OK!');
 });
 
-app.get('/test', customerController.findCustomers);
+app.get('/', customerController.findCustomers);
 
 export async function init() {
     await connectDatabase();

@@ -7,4 +7,13 @@ export default class Customer {
 
     @Column()
     name: string;
+
+    @Column()
+    email: string;
+
+    @Column()
+    contact: string;
+
+    @Column()
+    number: string;
 }
