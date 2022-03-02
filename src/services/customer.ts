@@ -1,4 +1,6 @@
-import { getRepository } from 'typeorm';
+import { getConnection, getRepository } from 'typeorm';
+import Customer from '@/entities/Customer';
+import CustomerNotFoundError from '@/errors/CustomerNotFoundError';
 
 export async function findCustomers() {
     const customers = await getRepository('customers').find();
@@ -24,4 +26,25 @@ export async function findCustomers() {
     });
 
     return hashCustomers;
+}
+
+export async function deleteCustomers(id: number) {
+    const customer = await getConnection()
+        .createQueryBuilder()
+        .delete()
+        .from(Customer)
+        .where('id = :id', { id })
+        .execute();
+
+    if (customer.affected === 0) {
+        throw new CustomerNotFoundError('Cliente não encontrado');
+    }
+
+    return customer;
+}
+
+export async function upsertCustomers(customer: Customer) {
+    const editCustomer = await getRepository('customers').save(customer);
+
+    return editCustomer;
 }

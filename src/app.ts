@@ -1,11 +1,10 @@
 import '@/setup';
-
 import express, { Response } from 'express';
 import cors from 'cors';
 import 'reflect-metadata';
-import * as customerController from '@/controllers/customer';
-
 import connectDatabase from './database';
+import { serverMiddlewareError } from './middlewares/serverMiddlewareError';
+import customerRouter from './routes/customerRoute';
 
 const app = express();
 app.use(cors());
@@ -15,7 +14,8 @@ app.get('/health', (_, res: Response) => {
     res.send('OK!');
 });
 
-app.get('/', customerController.findCustomers);
+app.use('/', customerRouter);
+app.use(serverMiddlewareError);
 
 export async function init() {
     await connectDatabase();
