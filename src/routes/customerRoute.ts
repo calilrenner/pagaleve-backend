@@ -6,7 +6,7 @@ import customerSchema from '../schemas/customerSchema';
 const router = express.Router();
 
 router.get('/', customerController.findCustomers);
-router.delete('/delete-customer', customerController.deleteCustomers);
+router.delete('/delete-customer/:id', customerController.deleteCustomers);
 router.put(
     '/upsert-customer',
     schemaValidatingMiddleware(customerSchema),
